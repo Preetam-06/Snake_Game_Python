@@ -170,7 +170,7 @@ Take a look at how the game looks in action! 🎮🐍
 ### 🍎 Eating Food and Growing
 <a href="assets/Snake_Game__02.png"> <img src="assets/Snake_Game__02.png" width="100" height="100"/> </a>
 
-### 💀 Game Over – Bit Itself
+### 💀 Game Over – Bite Itself
 <a href="assets/Snake_Game_Bite_itself.png"> <img src="assets/Snake_Game_Bite_itself.png" width="100" height="100"/> </a>
 
 ### 💥 Game Over – Hit Wall
