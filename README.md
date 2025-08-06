@@ -165,17 +165,16 @@ Feel free to explore, modify, and expand it!
 Take a look at how the game looks in action! 🎮🐍
 
 ### 🟢 Game Start
-[![Snake_Game_01](assets/Snake_Game__01.png)](assets/Snake_Game__01.png)
+<a href="assets/Snake_Game__01.png"> <img src="assets/Snake_Game__01.png" width="100" height="100"/> </a>
 
 ### 🍎 Eating Food and Growing
-[![Snake_Game_02](assets/Snake_Game__02.png)](assets/Snake_Game__02.png)
+<a href="assets/Snake_Game__02.png"> <img src="assets/Snake_Game__02.png" width="100" height="100"/> </a>
 
 ### 💀 Game Over – Bit Itself
-[![Snake_Game_Bite_itself](assets/Snake_Game_Bite_itself.png)](assets/Snake_Game_Bite_itself.png)
+<a href="assets/Snake_Game_Bite_itself.png"> <img src="assets/Snake_Game_Bite_itself.png" width="100" height="100"/> </a>
 
 ### 💥 Game Over – Hit Wall
-[![Snake_Game_Hit_Wall](assets/Snake_Game_Hit_Wall.png)](assets/Snake_Game_Hit_Wall.png)
-
+<a href="assets/Snake_Game_Hit_Wall.png"> <img src="assets/Snake_Game_Hit_Wall.png" width="100" height="100"/> </a>
 
 # Python_Turtle_Project
 Moderate Python-Turtle Based Game
