@@ -49,3 +49,22 @@ class menu_bd(Turtle):
         self.clear()  # DSA: Overwrite previous score (reset display)
         # DSA: Output formatting, using the score as a variable
         self.write(f"Press Space: Start | Press Enter: Restart | Press r: Pause/Continue", align="center", font=("Seoge"))
+class bound(Turtle):
+    def __init__(self):
+        super().__init__()
+        self.color('red')
+        self.pensize(10)
+        self.penup()
+        #self.hideturtle() 
+        self.goto(-300,300)
+        self.pendown()
+        self.forward(600)
+        self.right(90)
+        self.forward(600)
+        self.right(90)
+        self.forward(600)
+        self.right(90)
+        self.forward(600)
+        self.penup()
+        self.hideturtle()
+
