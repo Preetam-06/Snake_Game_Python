@@ -75,8 +75,7 @@ def start():
     game_is_on = True
     keys()
     game()
-<<<<<<< Updated upstream
-=======
+
 
 def paused():
     global pause
@@ -102,7 +101,7 @@ def keys():
         screen.onkeypress(snake.up1, 'w')     # Move up
         screen.onkeypress(snake.down1, 's')   # Move down
 keys()
->>>>>>> Stashed changes
+
 
 def paused():
     global pause
