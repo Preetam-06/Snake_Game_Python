@@ -2,13 +2,14 @@ from turtle import Turtle, Screen
 import time
 from Snake_File import SnakeSegment
 from Snake_Food_File import Food
-from Score_File import score_bd,menu_bd
+from Score_File import score_bd,menu_bd,bound
 
 # --- Global Variables ---
 snake = None
 food = None
 score1 = score_bd()
 menu1 = menu_bd()
+bd=bound()
 game_is_on = False
 n = 0.1  # Speed
 pause = False
@@ -67,6 +68,7 @@ def start():
     # --- Create game objects ---
     snake = SnakeSegment()        # Our snake, which is a list of Turtle segments
     score1 = score_bd()           # Scoreboard (uses a Turtle for drawing text)
+    bd=bound()
     menu1 = menu_bd()
     snake.create_snake(3)         # Start with 3 segments
     food = Food()                 # Food object, randomly placed
