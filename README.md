@@ -140,8 +140,8 @@ Snake_Game_Python/
 ## 👨‍🎓 Author
 
 **Preetam Prajapati**
-Python Programming Project
-Computer Science - UnderGrad
+* Python Programming Project
+* Computer Science - UnderGrad
 
 ---
 
