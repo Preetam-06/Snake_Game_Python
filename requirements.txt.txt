@@ -1,0 +1,16 @@
+# Snake Game - Requirements
+# -------------------------
+
+# Use Python 3.7 or higher
+python>=3.7
+
+# Turtle module is built-in on most platforms.
+# This line ensures compatibility for Windows users.
+turtle ; platform_system == "Windows"
+
+# 📌 Notes:
+# - Turtle comes with standard Python on Windows/macOS.
+# - On Linux, you might need to install it manually:
+#     sudo apt install python3-tk
+# - turtle is not available on PyPI, so pip might skip it.
+#   That's okay — it's expected!
