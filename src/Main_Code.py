@@ -2,12 +2,13 @@ from turtle import Turtle, Screen
 import time
 from Snake_File import SnakeSegment
 from Snake_Food_File import Food
-from Score_File import score_bd
+from Score_File import score_bd,menu_bd
 
 # --- Global Variables ---
 snake = None
 food = None
-score1 = None
+score1 = score_bd()
+menu1 = menu_bd()
 game_is_on = False
 n = 0.1  # Speed
 pause = False
@@ -34,7 +35,8 @@ def game():
         if snake.segments[0].distance(food.tim.pos()) < 15:
             food.refresh()         # Place food at a new random location (DSA: randomization)
             snake.extend()         # Add a new segment to the snake (DSA: dynamic list growth)
-            score1.scores += 1     # Increase the score
+            score1.scores += 1 
+            print(score1.scores*10)    # Increase the score
             score1.update_score()  # Update the score display
             n = n - 0.005         # Speed up the game a little
 
@@ -65,6 +67,7 @@ def start():
     # --- Create game objects ---
     snake = SnakeSegment()        # Our snake, which is a list of Turtle segments
     score1 = score_bd()           # Scoreboard (uses a Turtle for drawing text)
+    menu1 = menu_bd()
     snake.create_snake(3)         # Start with 3 segments
     food = Food()                 # Food object, randomly placed
     n = 0.1
