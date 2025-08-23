@@ -104,30 +104,4 @@ def keys():
         screen.onkeypress(snake.down1, 's')   # Move down
 keys()
 
-
-def paused():
-    global pause
-    pause = not pause
-    keys()
-    
-
-# --- Restart game ---
-def restart():
-    global game_is_on
-    game_is_on = False
-    start()
-
-# --- Keyboard controls (event-driven programming) ---
-def keys():
-    screen.listen()
-    screen.onkeypress(start,'space')
-    screen.onkeypress(paused,'r')
-    screen.onkeypress(restart,'Return')
-    if snake:
-        screen.onkeypress(snake.left1, 'a')   # Move left
-        screen.onkeypress(snake.right1, 'd')  # Move right
-        screen.onkeypress(snake.up1, 'w')     # Move up
-        screen.onkeypress(snake.down1, 's')   # Move down
-keys()
-
 screen.mainloop()  # Keep the window open until closed by the user
